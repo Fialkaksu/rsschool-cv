@@ -26,3 +26,6 @@ _Trainer, assistant coach, mentor, frontend direction at **CyberBionic Systemati
 ###EDUCATION
 * _**EPAM**: EPAM University Programs UA(frontend)_
 * _**CBS**: Web Frontend Developer_
+
+###English level
+_A2 (pre-intermediate) - B1(intermediate)_
