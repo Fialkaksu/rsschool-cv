@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(218, 215, 241);
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid black;
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "photo name"
+    "photo contacts";
+  background-color: rgb(48, 58, 116);
+  color: rgb(233, 235, 241);
+}
+
+.photo {
+  grid-area: photo;
+}
+
+img {
+  width: 100%;
+  border-radius: 0px 30px;
+}
+
+.name {
+  grid-area: name;
+  text-align: center;
+}
+
+.contacts {
+  grid-area: contacts;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+span,
+ul li,
+a {
+  font-style: italic;
+}
+
+a {
+  color: rgb(233, 235, 241);
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main div {
+  padding: 10px;
+}
+
+#general-info {
+  background-color: rgb(48, 58, 116);
+  color: rgb(233, 235, 241);
+}
+
+#prof-info {
+  background-color: rgb(233, 235, 241);
+}
+
+.experience ul li,
+.education ul li {
+  padding-bottom: 9px;
+}
